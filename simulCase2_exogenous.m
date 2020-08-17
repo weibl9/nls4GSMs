@@ -1,3 +1,9 @@
+% Copyright 2020, All Rights Reserved
+% Code by Baolei Wei
+% For paper, "Parameter estimation for grey system models: 
+%				a nonlinear least squares perspective"
+% by Baolei Wei, Naiming Xie
+
 %%
 clc
 clear
@@ -14,7 +20,7 @@ xt = dsolve(eqn,cond);
 nset = [501,251,101];       % sample size
 nvrs = [0.25,0.10,0.05];    % noise level
 
-ttyp = 2;                   % type of time instants
+ttyp = 1;                   % type of time instants
 res = nan(1,6);
 
 for i=1:length(nset)

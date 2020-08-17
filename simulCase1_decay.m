@@ -1,3 +1,9 @@
+% Copyright 2020, All Rights Reserved
+% Code by Baolei Wei
+% For paper, "Parameter estimation for grey system models: 
+%				a nonlinear least squares perspective"
+% by Baolei Wei, Naiming Xie
+
 %%
 clc
 clear

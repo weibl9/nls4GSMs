@@ -1,4 +1,11 @@
 function Q = case2opt(xi,t,x,v)
+% Copyright 2020, All Rights Reserved
+% Code by Baolei Wei
+% For paper, "Parameter estimation for grey system models: 
+%				a nonlinear least squares perspective"
+% by Baolei Wei, Naiming Xie
+
+
 %OPTFCN 'lsqnonlin' objective function
 %   xi: parameter estimates [a b1 b2 eta]
 %   t:  time instants nx1 column vector
